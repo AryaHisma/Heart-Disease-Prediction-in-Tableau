@@ -20,11 +20,22 @@ Cardiovascular disease remains one of the leading causes of death worldwide. Thi
 
 ## 🧠 Features & Analysis
 
-- 📈 Exploratory Data Analysis of key variables (SBP, LDL, Age, etc.)
-- 🔍 Filterable & interactive risk visualizations
-- 🧮 Logistic Regression prediction logic
-- 🧠 Behavioral insights (e.g., Type A Personality)
-- 📋 Glossary of cardiovascular terms with icons
+- 📈 **Exploratory Data Analysis** with scatter plots and dynamic filters
+- 🧮 **Logistic Regression prediction** integrated with Python using Tableau's Analytics Extension (TabPy)
+- 📉 **Real-time probability scoring** for CHD based on user input
+- 🧠 **Behavioral & physiological insights** (Type A Personality, Age, etc.)
+- 📋 **Glossary of cardiovascular terms** with icons for better interpretation
+
+---
+
+## 🔗 Tableau Analytics Extension (Python - TabPy)
+
+This dashboard integrates Python scripts using **Tableau's Analytics Extension**, allowing for advanced statistical calculations directly within Tableau:
+
+- Model trained with `scikit-learn` logistic regression
+- Prediction formula embedded in calculated fields using `SCRIPT_REAL`
+- Real-time CHD risk scoring based on input features
+- Allows interactive simulation for "What if" health scenarios
 
 ---
 
